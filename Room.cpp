@@ -19,7 +19,7 @@ class Room {
 
 int main() {
     Room obj401;
-    obj401.length = 10;
+    obj401.length = 5;
     obj401.breadth = 10;
     obj401.height = 5;
 
