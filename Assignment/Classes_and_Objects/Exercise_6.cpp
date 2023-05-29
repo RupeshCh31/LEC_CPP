@@ -28,8 +28,8 @@ class product
 int main()
 {
     product p1, p2;
-    p1.setdata(944 , "CD-ROM" , 1500.00);
-    p2.setdata(945 , "Pen Drive" , 1000.00);
+    p1.setdata(944,"CD-ROM",1500.00);
+    p2.setdata(945,"Pen Drive",1000.00);
     p1.showdata();
     p2.showdata();
     return 0;
