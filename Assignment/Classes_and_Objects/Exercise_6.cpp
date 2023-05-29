@@ -21,7 +21,7 @@ class product
     {
         cout<<"Product ID :"<<productid<<endl;
         cout<<"Name :"<<name<<endl;
-        cout<<"Cost :"<<endl;
+        cout<<"Cost :"<<cost<<endl;
     }
 };
 
