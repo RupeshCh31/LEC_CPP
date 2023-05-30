@@ -25,3 +25,14 @@ inline void student :: showdata()
     cout<<"Roll No: "<<roll<<endl;
     cout<<"Phone No: "<<phone<<endl;
 }
+int main()
+{
+    student s1, s2;
+    s1.getdata();
+    s2.getdata();
+    cout<<"\nFirst Student Infos: "<<endl;
+    s1.showdata();
+    cout<<"\nSecond Student Infos: "<<endl;
+    s2.showdata();
+    return 0;
+}
