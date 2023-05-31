@@ -2,7 +2,7 @@
 using namespace std;
 int swap(int & ,int &);
 int getnum();
-int main(void)
+int main()
 {
     int num1 = getnum();
     int num2 = getnum();
