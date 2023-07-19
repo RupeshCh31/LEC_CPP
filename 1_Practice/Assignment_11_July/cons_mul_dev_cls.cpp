@@ -1,4 +1,3 @@
-//pg.317
 //constructor in multiply derived class
 #include<iostream>
 using namespace std; 
