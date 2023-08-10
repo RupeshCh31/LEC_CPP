@@ -19,15 +19,15 @@ class Date
 
 };
  void Date::read_date(){
-    cout<<"Enter day";
+    cout<<"Enter day :";
     cin>>day;
     if (day>31)
         throw Dayrer();
-    cout<<"Enter Month ";
+    cout<<"Enter Month :";
     cin>>month;
     if(month>12)
         throw Monthrer();
-    cout<<"Enter year ";
+    cout<<"Enter year :";
     cin>>year;
     if(year<0)
         throw Yearer();
