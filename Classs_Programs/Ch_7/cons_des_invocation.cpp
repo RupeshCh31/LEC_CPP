@@ -24,6 +24,6 @@ class derived:public base
 int main()
 {
     base b1;
-    derived d1,d2;
+    derived d1;
  return 0;
 }

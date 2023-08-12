@@ -7,9 +7,9 @@ class Number
  private:
     double num;
  public:
-    class NEG{};//exception class->has no body
+    class NEG{};//exception class with empty body
     void readNum(){
-        cout<<"Enter a number";
+        cout<<"Enter a number :";
         cin>>num;
     }
     double sqroot(){
@@ -28,7 +28,7 @@ int main()
     try{
         cout<<"\nFinding square root";
         temp=n.sqroot();
-        cout<<"\nSquare root is"<<temp<<endl;
+        cout<<"\nSquare root is :"<<temp<<endl;
         cout<<"\nSuccess";
         
     }

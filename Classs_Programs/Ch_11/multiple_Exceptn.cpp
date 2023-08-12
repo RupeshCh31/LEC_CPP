@@ -8,7 +8,7 @@ class Stack {
         int top;
     public:
         class FULL{}; //exception class for full stack with empty class body
-        class EMPTY{};
+        class EMPTY{}; //exception class for empty stack with empty class body
 
         Stack() {
             top = -1;
@@ -51,10 +51,10 @@ int main() {
         cout<<"Number Popped:"<<s.pop()<<endl;
     }
     catch(Stack::FULL) {
-        cout<<"\nStack size exceeded"<<endl;
+        cout<<"\nThe number can't be pushed coz Stack size exceeded"<<endl;
     } 
     catch(Stack::EMPTY) {
-        cout<<"The number couldn't be popped stack is empty"<<endl;
+        cout<<"The number couldn't be popped coz stack is empty"<<endl;
     }
     return 0;
 }
